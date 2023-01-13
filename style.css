@@ -1,0 +1,438 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.container {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+.head{
+    display: flex;
+    padding-top: 45px;
+}
+
+.headLeft{ 
+    width: 50%; 
+    transform: translate(0, -45px); 
+ 
+} 
+ 
+.headLeft img{ 
+    width: 100%; 
+} 
+ 
+.headRight{ 
+    width: 50%; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.headHeader{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    align-items: center;
+}
+
+.headHeader div:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.headHeaderLeft{
+    padding-right: 10px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconSearch img, .iconShop img{
+    width: 20px;
+    height: 20px;
+}
+
+.headHeaderRight{
+    display: flex;
+    flex-direction: row;
+    width: 222px;
+}
+
+.buttonSingUp, .buttonSingIn{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 111px;
+}
+
+.buttonSingUp{
+    color: #156963;
+    font-size: 1em;
+
+    font-weight: bold;
+}
+
+.buttonSingIn{
+    color: #ffffff;
+    background-color: #156963;
+    font-size: 1em;
+
+    font-weight: bold;
+}
+
+.headText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 105px;
+    align-items: center;
+}
+
+.headText div{
+    width: 75%;
+}
+
+.headText div:first-child{
+    font-size: 3.5em;
+    color: #156963;
+
+}
+
+.headText div:last-child{
+    color: #727272;
+    padding-top: 24px;
+    font-size: 1.2em;
+}
+
+.properties{
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.property1, .property2, .property3, .property4{
+    width: auto;
+    border: 1px solid #E0E0E0;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.property_head{
+    display: flex;
+    flex-direction: row;
+}
+
+.property_head div{
+    color: #156963;
+    padding-left: 16px;
+    font-size: 1.1em;
+    align-self: center;
+    font-weight: bold;
+}
+
+.property_text{
+    color: #727272;
+    font-size: 0.7em;
+    padding-top: 16px;
+
+}
+
+.plants{
+    margin-bottom: 70px;
+}
+
+.plantsHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.plantsHeader div{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plantsPhotoes {
+    display: grid;
+    grid-gap: 13px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.plantsPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plantsPhoto img {
+    width: 200px;
+    height: 200px;
+}
+
+.plantsPhoto__name, .plantsPhoto__price {
+    font-size: 1em;
+}
+
+.plantsPhoto__price {
+    font-weight: bold;
+}
+
+.update a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #156963;
+}
+
+.update a:hover {
+    color: #0a3a37;
+}
+
+.delete a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #156963;
+}
+
+.delete a:hover {
+    color: #0a3a37;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.create a {
+    text-decoration: none;
+    background-color: #156963;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 8px 16px 8px 16px;
+}
+
+.create a:hover {
+    background-color: #1e726c;
+}
+
+.buy {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.buyLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buyLeftText {
+    width: 85%;
+    margin-bottom: 60px;
+}
+
+.buyLeftText div:first-child {
+    font-size: 2.6em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.buyLeftText div:last-child {
+    color: #727272;
+}
+
+.buyLeftPhoto img {
+    width: 100%;
+}
+
+.buyRight {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buyRight img {
+    width: 98%
+}
+
+.get {
+    display: flex;
+    background-color: #F3F4F6;
+    margin-bottom: 40px;
+}
+
+.getLeft {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.getLeft div:first-child{
+    font-size: 2.6em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.getLeft div:last-child {
+    color: #ffffff;
+    background-color: #156963;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    width: 111px;
+}
+
+.getRight { 
+    display: flex; 
+    width: 40%; 
+    align-items: flex-end; 
+} 
+
+.getRight img {
+    width: 100%;
+}
+
+.line{ 
+    transform: translate(-5%, 0); 
+    margin-bottom: 40px;
+}
+
+.footer {
+    width: 80%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.footer1, .footer2, .footer3, .footer4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 {
+    width: 30%;
+}
+
+.footer1_text div:last-child, .footer2_text, .footer3_text {
+    font-size: 0.8em;
+}
+
+.footer1_header {
+    color: #156963;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer1_text div:first-child, .footer2_header, .footer3_header, .footer4_header {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer2, .footer3 {
+    width: 10%;
+}
+
+.footer2_text div:first-child, .footer3_text div:first-child {
+    margin-bottom: 10px;
+}
+
+.footer4 {
+    width: 25%;
+}
+
+.footer4_buttom {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer4_buttom input:first-child {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.footer4_buttom input:last-child {
+    width: 20%;
+    font-size: 0.5em;
+    background-color: #156963;
+    color: #ffffff;
+    border: none;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+@media (width < 960px) {
+    .head {
+        flex-direction: column-reverse;
+    }
+    .headLeft, .headRight {
+        width: 100%;
+    }
+    .headRight {
+        margin-bottom: 4em;
+    }
+    .properties {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+    .plantsPhotoes {
+        grid-template-columns: 1fr;
+    }
+    .buy {
+        flex-direction: column;
+    }
+    .buyLeft, .buyRight, .buyRight img {
+        width: 100%;
+    }
+    .buyLeft {
+        margin-bottom: 2em;
+    }
+    .get {
+        flex-direction: column;
+    }
+    .getLeft {
+        width: 100%;
+        margin-left: 0;
+    }
+    .getRight {
+        width: 100%;
+    }
+    .getLeft div:first-child {
+        font-size: 2em;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        align-self: center;
+    }
+    .getLeft div:last-child {
+        align-self: center;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer1, .footer2, .footer3, .footer4 {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+}

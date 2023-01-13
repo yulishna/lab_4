@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <item id="0">
+        <img>"plant1.png"</img>
+        <name>Kaktus Plants</name>
+        <price>IDR 85.000</price>
+    </item>
+    <item id="1">
+        <img>"plant2.png"</img>
+        <name>Landak Plants</name>
+        <price>IDR 105.000</price>
+    </item>
+    <item id="3">
+        <img>"plant3.png"</img>
+        <name>Kecubung Plants</name>
+        <price>IDR 85.000</price>
+    </item>
+    <item id="4">
+        <img>"plant4.png"</img>
+        <name>Kecubung Plants</name>
+        <price>IDR 85.000</price>
+    </item>
+    <item id="5">
+        <img>"plant5.png"</img>
+        <name>Kecubung Plants</name>
+        <price>IDR 85.000</price>
+    </item>
+    </root>
