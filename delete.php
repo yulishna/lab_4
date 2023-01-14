@@ -16,7 +16,7 @@
 
         $xml->saveXML("data.xml");
         echo '<script>
-        alert("Товар успешно удалена.")
+        alert("Товар успешно удален.")
         </script>';
         header('location:index.php');
 
