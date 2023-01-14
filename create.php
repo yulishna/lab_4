@@ -38,7 +38,7 @@
         <input type="text" name="plantName" placeholder="Название растения">
         <br>
         <br>
-        <input type="text" name="plantPrice" placeholder="Цена (формат: IDR 0.000">
+        <input type="text" name="plantPrice" placeholder="Цена (формат: IDR 0.000)">
         <br>
         <br>
         <button type="submit" name="submit">Отправить</button>
